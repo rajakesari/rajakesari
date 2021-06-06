@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "rajakesari",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

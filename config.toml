@@ -1,4 +1,4 @@
-baseurl = "https://example.com"
+baseurl = "https://rajakesari.web.app"
 languageCode = "en"
 theme = "kiss-em"
 Paginate = 5 # Number of posts per page
@@ -39,7 +39,7 @@ rss = "index.xml"
 
 # Define the order of the icons:
 [params.social.config]
-platforms = ["about", "email", "github", "twitter", "xing", "rss"]
+platforms = ["about", "email", "github"]
 
 [taxonomies]
 tag ="tags"
