@@ -1,0 +1,90 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raja Kesari</title>
+    <link>https://example.com/</link>
+    <description>Recent content on Raja Kesari</description>
+    <generator>Hugo - gohugo.io</generator>
+    <language>en</language>
+    <contact>rajakesari04@gmail.com</contact>
+    <copyright>© <a href="https://github.com/rajakesari">Raja Kesari</a> 2021</copyright>
+    
+        <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blogs</title>
+      <link>https://example.com/blog/</link>
+      <pubDate>Thu, 27 May 2021 10:48:01 +0000</pubDate>
+      <author>Raja Kesari</author>
+      <guid>https://example.com/blog/</guid>
+      <description></description>
+      
+      <content></content>
+      
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://example.com/post/</link>
+      <pubDate>Thu, 27 May 2021 10:48:01 +0000</pubDate>
+      <author>Raja Kesari</author>
+      <guid>https://example.com/post/</guid>
+      <description></description>
+      
+      <content></content>
+      
+    </item>
+    
+    <item>
+      <title>Microes</title>
+      <link>https://example.com/micro/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+      <author>Raja Kesari</author>
+      <guid>https://example.com/micro/</guid>
+      <description></description>
+      
+      <content></content>
+      
+    </item>
+    
+    <item>
+      <title>Get in touch</title>
+      <link>https://example.com/contact/</link>
+      <pubDate>Sun, 06 Nov 2016 13:00:25 +0530</pubDate>
+      <author>Raja Kesari</author>
+      <guid>https://example.com/contact/</guid>
+      <description></description>
+      
+      <content>&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then&lt;/p&gt;
+&lt;p&gt;Effects present letters inquiry no an removed or friends. Desire behind latter me though in. Supposing shameless am he engrossed up additions. My possible peculiar together to. Desire so better am cannot he up before points. Remember mistaken opinions it pleasure of debating. Court front maids forty if aware their at. Chicken use are pressed removed.&lt;/p&gt;
+&lt;p&gt;Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh.&lt;/p&gt;
+</content>
+      
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://example.com/about/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      <author>Raja Kesari</author>
+      <guid>https://example.com/about/</guid>
+      <description></description>
+      
+      <content>&lt;p&gt;Hi There, Thank you for visiting my blog. Myself, Raja Kesari, a mainframe guy with 12+ years of experience of working in Cards and Payments area. With Keen interest on Emerging technolgies, I learned Blockchain.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Advanced Certification in Blockchain and Distributed Ledger Technologies                                               &lt;br&gt;
+IBM Blockchain Developer V2&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;{{
+&amp;lt; rawhtml &amp;gt;
+}}&lt;/p&gt;
+&lt;div data-iframe-width=&#34;150&#34; data-iframe-height=&#34;270&#34; data-share-badge-id=&#34;1ead420b-9133-4966-a22c-44741c3153a8&#34; data-share-badge-host=&#34;https://www.credly.com&#34;&gt;&lt;/div&gt;&lt;script type=&#34;text/javascript&#34; async src=&#34;//cdn.credly.com/assets/utilities/embed.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;{{
+&amp;lt; /rawhtml &amp;gt;
+}}&lt;/p&gt;
+</content>
+      
+    </item>
+    
+  </channel>
+</rss>

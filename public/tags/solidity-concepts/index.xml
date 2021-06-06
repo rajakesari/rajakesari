@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Solidity Concepts on Raja Kesari</title>
+    <link>https://example.com/tags/solidity-concepts/</link>
+    <description>Recent content in Solidity Concepts on Raja Kesari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 May 2021 10:48:01 +0000</lastBuildDate><atom:link href="https://example.com/tags/solidity-concepts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Constructor</title>
+      <link>https://example.com/blog/constructor/</link>
+      <pubDate>Thu, 27 May 2021 10:48:01 +0000</pubDate>
+      
+      <guid>https://example.com/blog/constructor/</guid>
+      <description>&lt;p&gt;it is recommended to go through the Smart Contract as we touch some of the smart contract concepts from here.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Constructor</title>
+      <link>https://example.com/post/constructor/</link>
+      <pubDate>Thu, 27 May 2021 10:48:01 +0000</pubDate>
+      
+      <guid>https://example.com/post/constructor/</guid>
+      <description>&lt;p&gt;it is recommended to go through the Smart Contract as we touch some of the smart contract concepts from here.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mapping</title>
+      <link>https://example.com/blog/mapping/</link>
+      <pubDate>Thu, 27 May 2021 10:48:01 +0000</pubDate>
+      
+      <guid>https://example.com/blog/mapping/</guid>
+      <description>&lt;p&gt;For a long time, I, who is a COBOL developer with little awareness of ‘C’, struggled to understand how the Mapping type works in Solidity. I am keeping a separate article for the same reason.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mapping</title>
+      <link>https://example.com/post/mapping/</link>
+      <pubDate>Thu, 27 May 2021 10:48:01 +0000</pubDate>
+      
+      <guid>https://example.com/post/mapping/</guid>
+      <description>&lt;p&gt;For a long time, I, who is a COBOL developer with little awareness of ‘C’, struggled to understand how the Mapping type works in Solidity. I am keeping a separate article for the same reason.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

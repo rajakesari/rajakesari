@@ -1,0 +1,277 @@
+
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="en">
+
+    <head>
+
+        
+        <meta charset="UTF-8" />
+
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+                
+        <title> 
+             MultiSigWallet Smart Contract - Code Analysis  
+        </title>
+        
+        
+            <link href="https://example.com/index.xml" rel="alternate" type="application/rss+xml" title="Raja Kesari" />
+        
+
+        
+        <link rel="stylesheet" href="/css/style.css"/>
+
+        
+        
+            <link rel='stylesheet' href='https://example.com/css/custom.css'>
+        
+        
+    </head>
+
+    <body>
+
+
+
+<section class="section">
+  <div class="container">
+    <nav id="nav-main" class="nav">
+      <div id="nav-name" class="nav-left">
+        <a id="nav-anchor" class="nav-item" href="https://example.com">
+          <h1 id="nav-heading" class="title is-4">Raja Kesari</h1>
+        </a>
+      </div>
+      <div class="nav-right">
+        
+        
+        <nav id="nav-items" class="nav-item level is-mobile">
+          <a class="level-item" aria-label="about" href='/about'
+           rel='noopener'>
+            <span class="icon">
+              <i class>
+
+<svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="8"></line>
+    
+  </svg></i>
+            </span>
+          </a>
+          <a class="level-item" aria-label="email" href='mailto:rajakesari04@gmail.com'
+           target='_blank'  rel='noopener'>
+            <span class="icon">
+              <i class>
+
+<svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+    <polyline points="22,6 12,13 2,6"/>
+    
+  </svg></i>
+            </span>
+          </a>
+          <a class="level-item" aria-label="github" href='https://github.com/rajakesari'
+           target='_blank'  rel='noopener'>
+            <span class="icon">
+              <i class>
+
+<svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+    
+  </svg></i>
+            </span>
+          </a>
+          <a class="level-item" aria-label="twitter" href='https://twitter.com/@rajakesari'
+           target='_blank'  rel='noopener'>
+            <span class="icon">
+              <i class>
+
+<svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+    
+  </svg></i>
+            </span>
+          </a>
+          <a class="level-item" aria-label="rss" href='/index.xml'
+           target='_blank'  rel='noopener'>
+            <span class="icon">
+              <i class>
+
+<svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle>
+    
+  </svg></i>
+            </span>
+          </a></nav>
+        
+      
+      </div>
+    </nav>
+
+    <nav class="nav">
+      
+
+      
+    </nav>
+
+  </div>
+</section>
+
+<section class="section">
+    
+    <div class="container">
+    
+        
+            
+<div class="subtitle tags is-6 is-pulled-right">
+    
+        
+<a class="subtitle is-6" href="/tags/solidity/">#Solidity</a>
+
+
+
+  
+  | <a class="subtitle is-6" href="/tags/inlineassembly/">#InlineAssembly</a>
+  
+
+
+    
+</div>
+
+
+
+<h2 class="subtitle is-6">
+    
+    
+        April 21, 2021 | 00:46
+    
+</h2>
+
+
+
+<h1 class="title">MultiSigWallet Smart Contract - Code Analysis</h1>
+
+<div class="content">
+
+    
+    <p>I wanted to do an exercise from long time - To understand an already created project, by going through each line of code and see why it was written like that.</p>
+<p>I randomly choose gnosis Multisig wallet smart contracts. This is a deprecated version and there is a latest safe version.</p>
+<p>There are many thing that I learned while doing this however I want to share one interesting thing I learned.</p>
+<p>The contract MultiSigWallet.sol seems to be taken from the Consensys multiSigWallet.sol but the gnosis has done one change in how the execution of call happens in their contract.</p>
+<p>Consensys function for executeTransaction</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-solidity" data-lang="solidity">    <span style="color:#75715e">/// @dev Allows anyone to execute a confirmed transaction.
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">/// @param transactionId Transaction ID.
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">function</span> executeTransaction(<span style="color:#66d9ef">uint</span> transactionId)
+        <span style="color:#66d9ef">public</span>
+        notExecuted(transactionId)
+    {
+        <span style="color:#66d9ef">if</span> (isConfirmed(transactionId)) {
+            Transaction tx <span style="color:#f92672">=</span> transactions[transactionId];
+            tx.executed <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;
+            <span style="color:#66d9ef">if</span> (tx.destination.call.value(tx.value)(tx.data))
+                Execution(transactionId);
+            <span style="color:#66d9ef">else</span> {
+                ExecutionFailure(transactionId);
+                tx.executed <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>;
+            }
+        }
+    }</code></pre></div>
+<p>Gnosis function for executeTransaction has separated the call</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-solidity" data-lang="solidity"><span style="color:#75715e">/// @dev Allows anyone to execute a confirmed transaction.
+</span><span style="color:#75715e">/// @param transactionId Transaction ID.
+</span><span style="color:#75715e"></span>
+    <span style="color:#66d9ef">function</span> executeTransaction(<span style="color:#66d9ef">uint</span> transactionId)
+        <span style="color:#66d9ef">public</span>
+        ownerExists(msg.sender)
+        confirmed(transactionId, msg.sender)
+        notExecuted(transactionId)
+    {
+        <span style="color:#66d9ef">if</span> (isConfirmed(transactionId)) {
+            Transaction <span style="color:#66d9ef">storage</span> txn <span style="color:#f92672">=</span> transactions[transactionId];
+            txn.executed <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;
+            <span style="color:#66d9ef">if</span> (external_call(txn.destination, txn.value, txn.data.length, txn.data))
+                Execution(transactionId);
+            <span style="color:#66d9ef">else</span> {
+                ExecutionFailure(transactionId);
+                txn.executed <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>;
+            }
+        }
+    }
+
+<span style="color:#75715e">// call has been separated into its own function in order to take advantage
+</span><span style="color:#75715e">// of the Solidity&#39;s code generator to produce a loop that copies tx.data into memory.
+</span><span style="color:#75715e"></span>
+    <span style="color:#66d9ef">function</span> external_call(<span style="color:#66d9ef">address</span> destination, <span style="color:#66d9ef">uint</span> value, <span style="color:#66d9ef">uint</span> dataLength, <span style="color:#66d9ef">bytes</span> data) <span style="color:#66d9ef">internal</span> <span style="color:#66d9ef">returns</span> (<span style="color:#66d9ef">bool</span>) {
+        <span style="color:#66d9ef">bool</span> result;
+        <span style="color:#66d9ef">assembly</span> {
+            <span style="color:#f92672">let</span> x <span style="color:#f92672">:=</span> <span style="color:#a6e22e">mload</span>(<span style="color:#ae81ff">0x40</span>)   <span style="color:#75715e">// &#34;Allocate&#34; memory for output (0x40 is where &#34;free memory&#34; pointer is stored by convention)
+</span><span style="color:#75715e"></span>            <span style="color:#f92672">let</span> d <span style="color:#f92672">:=</span> <span style="color:#a6e22e">add</span>(data, <span style="color:#ae81ff">32</span>) <span style="color:#75715e">// First 32 bytes are the padded length of data, so exclude that
+</span><span style="color:#75715e"></span>            result <span style="color:#f92672">:=</span> <span style="color:#a6e22e">call</span>(
+                <span style="color:#a6e22e">sub</span>(<span style="color:#a6e22e">gas</span>, <span style="color:#ae81ff">34710</span>),   <span style="color:#75715e">// 34710 is the value that solidity is   currently emitting
+</span><span style="color:#75715e"></span>                                   <span style="color:#75715e">// It includes callGas (700) + callVeryLow (3, to pay for SUB) + callValueTransferGas (9000) +
+</span><span style="color:#75715e"></span>                                   <span style="color:#75715e">// callNewAccountGas (25000, in case the destination address does not exist and needs creating)
+</span><span style="color:#75715e"></span>                destination,
+                value,
+                d,
+                dataLength,        <span style="color:#75715e">// Size of the input (in bytes) - this is what fixes the padding problem
+</span><span style="color:#75715e"></span>                x,
+                <span style="color:#ae81ff">0</span>                  <span style="color:#75715e">// Output is ignored, therefore the output size is zero
+</span><span style="color:#75715e"></span>            )
+        }
+        <span style="color:#a6e22e">return</span> result<span style="color:#960050;background-color:#1e0010">;</span>
+    }</code></pre></div>
+<p>This is to prevent Short Address Attacks.</p>
+<p>The address.call() pads the data it received with zeroes to make it multiple of 32 bytes. This can cause serious security issues if the intended data is less number of bytes but the actual data that is used by the call function is more(padded with zeroes to make it multiples of 32).</p>
+<p>The multisig wallet smart contracts first creates the transaction and once confirmed by multiple owners, that transaction will be sent for execution. As we can see in the consensys multisig smart contract function, the data payload(tx.payload) is given to call but not validating the data or its length.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-solidity" data-lang="solidity">     tx.destination.call.value(tx.value)(tx.data) </code></pre></div>
+<p>To avoid any failure that could caused by short address attacks, the call is handled separately in gnosis smart contract. The call is written in solidity assembly here. Before going into how this will resolve the issue in context lets see the assembly call syntax.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-solidity" data-lang="solidity"><span style="color:#75715e">//Inline Assembly: Call - syntax 
+</span><span style="color:#75715e"></span>Let success <span style="color:#f92672">:=</span> call(gas <span style="color:#66d9ef">for</span> call, 
+                    To Address, 
+                    value to be sent, 
+                    <span style="color:#66d9ef">address</span> where input data present, 
+                    length of input data, 
+                    <span style="color:#66d9ef">address</span> where output data to be stored, 
+                    length of output data)
+
+<span style="color:#f92672">//</span>Returns <span style="color:#66d9ef">if</span> call <span style="color:#66d9ef">is</span> not successful</code></pre></div>
+<p>When we use ‘call’ in assembly code, we can pass the data(or data payload) and its length separately.</p>
+<p>The function is being passed with the data length (data length). We need to extract the data from the ten.data. The below line of code does that.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-solidity" data-lang="solidity">  let d <span style="color:#f92672">:=</span> add(data, <span style="color:#ae81ff">32</span>) <span style="color:#f92672">//</span> First <span style="color:#ae81ff">32</span> <span style="color:#66d9ef">bytes</span> are the padded length of data, so exclude that</code></pre></div>
+<p>This assigns the value present at the ‘data’ from 33rd byte to d.</p>
+<p>Now we have both data length(without any unneccessary padding that could have done by the call function and data in ‘d’.</p>
+<p>With this, the ‘call’ will not give unpredicted result.</p>
+
+
+    
+    
+        <div class="related">
+
+</div>
+    
+
+</div>
+
+
+        
+
+    </div>
+
+</section>
+
+
+
+<section class="section">
+  <div class="container has-text-centered">
+    <p>© <a href="https://github.com/rajakesari">Raja Kesari</a> 2021</p>
+    
+  </div>
+</section>
+
+</body>
+</html>
+

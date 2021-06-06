@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Corda on Raja Kesari</title>
+    <link>https://example.com/tags/corda/</link>
+    <description>Recent content in Corda on Raja Kesari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 May 2021 07:00:51 +0000</lastBuildDate><atom:link href="https://example.com/tags/corda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Certified CORDA Developer!</title>
+      <link>https://example.com/blog/my-corda-journey/</link>
+      <pubDate>Sat, 15 May 2021 07:00:51 +0000</pubDate>
+      
+      <guid>https://example.com/blog/my-corda-journey/</guid>
+      <description>&lt;p&gt;When I first came across R3 Corda, as part of my blockchain learning, the first fact that hit me hard is that it is not actually a true blockchain. Yet, it achieves what the blockchain technology truly wants to achieve especially the enterprise blockchains.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

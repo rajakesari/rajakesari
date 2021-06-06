@@ -1,0 +1,52 @@
+baseurl = "https://example.com"
+languageCode = "en"
+theme = "kiss-em"
+Paginate = 5 # Number of posts per page
+enableRobotsTXT = true
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.de]
+    title = "Das ist Kiss'Em!"
+    weight = 2
+  [languages.en]
+    title = "Raja Kesari"
+    weight = 1
+
+[params.microblog]
+number = 2
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.rss]
+enable = true
+includeContent = true
+authorName = "Raja Kesari"
+authorEmail = "rajakesari04@gmail.com"
+
+[params.info]
+poweredby = false 
+related = true 
+copyright = "© <a href=\"https://github.com/rajakesari\">Raja Kesari</a> 2021"
+
+[params.social]
+about = "about"
+twitter = "@rajakesari"
+github = "rajakesari"
+email = "rajakesari04@gmail.com"
+rss = "index.xml"
+
+# Define the order of the icons:
+[params.social.config]
+platforms = ["about", "email", "github", "twitter", "xing", "rss"]
+
+[taxonomies]
+tag ="tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+

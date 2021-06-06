@@ -1,0 +1,15 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Das ist Kiss&#39;Em!</title>
+    <link>https://example.com/de/</link>
+    <description>Recent content on Das ist Kiss&#39;Em!</description>
+    <generator>Hugo - gohugo.io</generator>
+    <language>de</language>
+    <contact>rajakesari04@gmail.com</contact>
+    <copyright>© <a href="https://github.com/rajakesari">Raja Kesari</a> 2021</copyright>
+    
+        <atom:link href="https://example.com/de/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

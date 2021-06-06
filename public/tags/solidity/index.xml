@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Solidity on Raja Kesari</title>
+    <link>https://example.com/tags/solidity/</link>
+    <description>Recent content in Solidity on Raja Kesari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 21 Apr 2021 00:46:01 +0000</lastBuildDate><atom:link href="https://example.com/tags/solidity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MultiSigWallet Smart Contract - Code Analysis</title>
+      <link>https://example.com/blog/multisigwallet-smart-contract-code-analysis/</link>
+      <pubDate>Wed, 21 Apr 2021 00:46:01 +0000</pubDate>
+      
+      <guid>https://example.com/blog/multisigwallet-smart-contract-code-analysis/</guid>
+      <description>I wanted to do an exercise from long time - To understand an already created project, by going through each line of code and see why it was written like that.
+I randomly choose gnosis Multisig wallet smart contracts. This is a deprecated version and there is a latest safe version.
+There are many thing that I learned while doing this however I want to share one interesting thing I learned.</description>
+    </item>
+    
+  </channel>
+</rss>

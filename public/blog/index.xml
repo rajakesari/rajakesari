@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Raja Kesari</title>
+    <link>https://example.com/blog/</link>
+    <description>Recent content in Blogs on Raja Kesari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 May 2021 10:48:01 +0000</lastBuildDate><atom:link href="https://example.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Constructor</title>
+      <link>https://example.com/blog/constructor/</link>
+      <pubDate>Thu, 27 May 2021 10:48:01 +0000</pubDate>
+      
+      <guid>https://example.com/blog/constructor/</guid>
+      <description>&lt;p&gt;it is recommended to go through the Smart Contract as we touch some of the smart contract concepts from here.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ethereum Virtual Machine</title>
+      <link>https://example.com/blog/ethereum-virtual-machine/</link>
+      <pubDate>Thu, 27 May 2021 10:48:01 +0000</pubDate>
+      
+      <guid>https://example.com/blog/ethereum-virtual-machine/</guid>
+      <description>&lt;p&gt;Before diving into EVM, let’s try to understand a bit more of What an “Account” meant in Ethereum world and how the “Transaction” effect the World State. Please go through the links, if you have not already done.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mapping</title>
+      <link>https://example.com/blog/mapping/</link>
+      <pubDate>Thu, 27 May 2021 10:48:01 +0000</pubDate>
+      
+      <guid>https://example.com/blog/mapping/</guid>
+      <description>&lt;p&gt;For a long time, I, who is a COBOL developer with little awareness of ‘C’, struggled to understand how the Mapping type works in Solidity. I am keeping a separate article for the same reason.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Smart Contract</title>
+      <link>https://example.com/blog/smart-contract/</link>
+      <pubDate>Thu, 27 May 2021 10:48:01 +0000</pubDate>
+      
+      <guid>https://example.com/blog/smart-contract/</guid>
+      <description>&lt;p&gt;To understand the need for a smart Contract in Ethereum framework, we should revisit the Transaction where we discussed that all we can do is one kind of Transaction.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Transaction</title>
+      <link>https://example.com/blog/transaction/</link>
+      <pubDate>Thu, 27 May 2021 10:48:01 +0000</pubDate>
+      
+      <guid>https://example.com/blog/transaction/</guid>
+      <description>&lt;p&gt;Taking the same example of a Cricket match from World State, we will see why using “a ball bowled” as the transaction is right decision.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>World State</title>
+      <link>https://example.com/blog/world-state/</link>
+      <pubDate>Thu, 27 May 2021 10:48:01 +0000</pubDate>
+      
+      <guid>https://example.com/blog/world-state/</guid>
+      <description>&lt;p&gt;Ethereum, or for that matter any blockchain does not store the data like normal databases. Blockchain stores the ‘State’ of the ethereum world.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Certified CORDA Developer!</title>
+      <link>https://example.com/blog/my-corda-journey/</link>
+      <pubDate>Sat, 15 May 2021 07:00:51 +0000</pubDate>
+      
+      <guid>https://example.com/blog/my-corda-journey/</guid>
+      <description>&lt;p&gt;When I first came across R3 Corda, as part of my blockchain learning, the first fact that hit me hard is that it is not actually a true blockchain. Yet, it achieves what the blockchain technology truly wants to achieve especially the enterprise blockchains.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MultiSigWallet Smart Contract - Code Analysis</title>
+      <link>https://example.com/blog/multisigwallet-smart-contract-code-analysis/</link>
+      <pubDate>Wed, 21 Apr 2021 00:46:01 +0000</pubDate>
+      
+      <guid>https://example.com/blog/multisigwallet-smart-contract-code-analysis/</guid>
+      <description>I wanted to do an exercise from long time - To understand an already created project, by going through each line of code and see why it was written like that.
+I randomly choose gnosis Multisig wallet smart contracts. This is a deprecated version and there is a latest safe version.
+There are many thing that I learned while doing this however I want to share one interesting thing I learned.</description>
+    </item>
+    
+    <item>
+      <title>Accounts In Ethereum Context</title>
+      <link>https://example.com/blog/account/</link>
+      <pubDate>Wed, 27 Jan 2021 10:00:51 +0000</pubDate>
+      
+      <guid>https://example.com/blog/account/</guid>
+      <description>&lt;p&gt;The concept of Blockchain it self is based on change of the state, to be precise “storing of every state change”. We can call this state-changing “action” a “transaction”. To do these transactions there has to be some entities which can be recognized by the blockchain in our case Ethereum. Let’s call these entities “Accounts”. The Ethereum blockchain recognize these “entities that are capable of doing transactions”(We just named them as Accounts) with their Address.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
